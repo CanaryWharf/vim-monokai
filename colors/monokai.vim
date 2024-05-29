@@ -11,121 +11,154 @@ endif
 set t_Co=256
 let g:colors_name = "monokai"
 
-hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
-hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
-hi LineNr ctermfg=102 ctermbg=237 cterm=NONE guifg=#90908a guibg=#3c3d37 gui=NONE
-hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#64645e guibg=#64645e gui=NONE
-hi MatchParen ctermfg=197 ctermbg=NONE cterm=underline guifg=#f92672 guibg=NONE gui=underline
-hi StatusLine ctermfg=231 ctermbg=241 cterm=bold guifg=#f8f8f2 guibg=#64645e gui=bold
-hi StatusLineNC ctermfg=231 ctermbg=241 cterm=NONE guifg=#f8f8f2 guibg=#64645e gui=NONE
-hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
-hi IncSearch term=reverse cterm=reverse ctermfg=193 ctermbg=16 gui=reverse guifg=#c4be89 guibg=#000000
-hi Search term=reverse cterm=NONE ctermfg=231 ctermbg=24 gui=NONE guifg=#f8f8f2 guibg=#204a87
-hi Directory ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi Folded ctermfg=242 ctermbg=235 cterm=NONE guifg=#75715e guibg=#272822 gui=NONE
-hi Conceal ctermfg=231 ctermbg=235 cterm=NONE guifg=#f8f8f0 guibg=NONE gui=NONE
-hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
-hi Normal ctermfg=231 ctermbg=235 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
-hi Boolean ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi Comment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi Conditional ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Define ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#f8f8f2 guibg=#46830c gui=bold
-hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8b0807 guibg=NONE gui=NONE
-hi DiffChange ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=#243955 gui=NONE
-hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#f8f8f2 guibg=#204a87 gui=bold
-hi diffAdded ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi diffFile ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi diffIndexLine ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi diffLine ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi diffRemoved ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi diffSubname ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi ErrorMsg ctermfg=231 ctermbg=197 cterm=NONE guifg=#f8f8f0 guibg=#f92672 gui=NONE
-hi WarningMsg ctermfg=231 ctermbg=197 cterm=NONE guifg=#f8f8f0 guibg=#f92672 gui=NONE
-hi Float ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi Function ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi Identifier ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
-hi Keyword ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi Label ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi NonText ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi Number ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi Operator ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi PreProc ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
-hi SpecialComment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi SpecialKey ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi SpecialChar ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi Statement ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi StorageClass ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
-hi String ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi Tag ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#f8f8f2 guibg=NONE gui=bold
-hi Todo ctermfg=95 ctermbg=NONE cterm=inverse,bold guifg=#75715e guibg=NONE gui=inverse,bold
-hi Type ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
-hi helpCommand ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi rubyClass ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi rubyFunction ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi rubyInterpolationDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi rubySymbol ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi rubyConstant ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
-hi rubyStringDelimiter ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi rubyBlockParameter ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=italic
-hi rubyInstanceVariable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi rubyInclude ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi rubyGlobalVariable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi rubyRegexp ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi rubyRegexpDelimiter ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi rubyEscape ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi rubyControl ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi rubyClassVariable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi rubyOperator ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi rubyException ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi rubyPseudoVariable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi rubyRailsUserClass ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
-hi rubyRailsARAssociationMethod ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi rubyRailsARMethod ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi rubyRailsRenderMethod ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi rubyRailsMethod ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi erubyDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi erubyComment ctermfg=95 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi erubyRailsMethod ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi htmlTag ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi htmlEndTag ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi htmlTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi htmlArg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi htmlSpecialChar ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi javaScriptFunction ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
-hi javaScriptRailsFunction ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi yamlKey ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi yamlAnchor ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi yamlAlias ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi yamlDocumentHeader ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi cssURL ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=italic
-hi cssFunctionName ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi cssColor ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi cssPseudoClassId ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi cssClassName ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi cssValueLength ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi cssCommonAttr ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi elixirAtom ctermfg=140 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi elixirModuleDeclaration ctermfg=216 ctermbg=NONE cterm=NONE guifg=#f4bf75 guibg=NONE gui=NONE
-hi elixirAlias ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=NONE
-hi elixirStringDelimiter ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi shQuote ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi shDerefSimple ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
-hi markdownHeadingDelimiter ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi markdownCode ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi markdownUrl ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=underline
-hi markdownLink ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=underline
-hi markdownLinkDelimiter ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi markdownLinkTextDelimiter ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
-hi markdownLinkText ctermfg=81 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
+
+function! monokai#highlight(target, ctermfg, ctermbg, cterm, guifg, guibg, gui)
+    execute 'hi' a:target
+                \ 'ctermfg=' . a:ctermfg
+                \ 'ctermbg=' . a:ctermbg
+                \ 'cterm=' . a:cterm
+                \ 'guifg=' . a:guifg
+                \ 'guibg=' . a:guibg
+                \ 'gui=' . a:gui
+endfunction
+
+let s:bg = '#1f1f1f'
+let s:col_1 = '#f8f8f0'
+let s:col_2 = '#49483e'
+let s:gutter = '#2A2A2A'
+let s:col_4 = '#90908a'
+let s:col_5 = '#64645e'
+let s:col_6 = '#ff005c'
+let s:col_7 = '#f8f8f2'
+let s:col_8 = '#c4be89'
+let s:col_9 = '#000000'
+let s:col_10 = '#204a87'
+let s:col_11 = '#ae81ff'
+let s:col_12 = '#75715e'
+let s:col_13 = '#46830c'
+let s:col_14 = '#8b0807'
+let s:col_15 = '#243955'
+let s:col_16 = '#a6e22e'
+let s:col_17 = '#4de2ff'
+let s:col_18 = '#e6db74'
+let s:col_19 = '#fd971f'
+let s:col_20 = '#f4bf75'
+
+call monokai#highlight('Cursor', 235, 231, 'NONE', s:bg, s:col_1, 'NONE')
+call monokai#highlight('Visual', 'NONE', 59, 'NONE', 'NONE', s:col_2, 'NONE')
+call monokai#highlight('CursorLine', 'NONE', 237, 'NONE', 'NONE', s:gutter, 'NONE')
+call monokai#highlight('CursorColumn', 'NONE', 237, 'NONE', 'NONE', s:gutter, 'NONE')
+call monokai#highlight('ColorColumn', 'NONE', 237, 'NONE', 'NONE', s:gutter, 'NONE')
+call monokai#highlight('LineNr', 102, 237, 'NONE', s:col_4, s:gutter, 'NONE')
+call monokai#highlight('VertSplit', 241, 241, 'NONE', s:col_5, s:col_5, 'NONE')
+call monokai#highlight('MatchParen', 197, 'NONE', 'underline', s:col_6, 'NONE', 'underline')
+call monokai#highlight('StatusLine', 231, 241, 'bold', s:col_7, s:col_5, 'bold')
+call monokai#highlight('StatusLineNC', 231, 241, 'NONE', s:col_7, s:col_5, 'NONE')
+call monokai#highlight('Pmenu', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('PmenuSel', 'NONE', 59, 'NONE', 'NONE', s:col_2, 'NONE')
+call monokai#highlight('IncSearch', 193, 16, 'reverse', s:col_8, s:col_9, 'reverse')
+call monokai#highlight('Search', 231, 24, 'NONE', s:col_7, s:col_10, 'NONE')
+call monokai#highlight('Directory', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('Folded', 242, 235, 'NONE', s:col_12, s:bg, 'NONE')
+call monokai#highlight('Conceal', 231, 235, 'NONE', s:col_1, 'NONE', 'NONE')
+call monokai#highlight('SignColumn', 'NONE', 237, 'NONE', 'NONE', s:gutter, 'NONE')
+call monokai#highlight('Normal', 231, 235, 'NONE', s:col_7, s:bg, 'NONE')
+call monokai#highlight('Boolean', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('Character', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('Comment', 242, 'NONE', 'NONE', s:col_12, 'NONE', 'NONE')
+call monokai#highlight('Conditional', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('Constant', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('Define', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('DiffAdd', 231, 64, 'bold', s:col_7, s:col_13, 'bold')
+call monokai#highlight('DiffDelete', 88, 'NONE', 'NONE', s:col_14, 'NONE', 'NONE')
+call monokai#highlight('DiffChange', 'NONE', 'NONE', 'NONE', s:col_7, s:col_15, 'NONE')
+call monokai#highlight('DiffText', 231, 24, 'bold', s:col_7, s:col_10, 'bold')
+call monokai#highlight('diffAdded', 148, 'NONE', 'NONE', s:col_16, 'NONE', 'NONE')
+call monokai#highlight('diffFile', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('diffIndexLine', 242, 'NONE', 'NONE', s:col_12, 'NONE', 'NONE')
+call monokai#highlight('diffLine', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('diffRemoved', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('diffSubname', 242, 'NONE', 'NONE', s:col_12, 'NONE', 'NONE')
+call monokai#highlight('ErrorMsg', 231, 197, 'NONE', s:col_1, s:col_6, 'NONE')
+call monokai#highlight('WarningMsg', 231, 197, 'NONE', s:col_1, s:col_6, 'NONE')
+call monokai#highlight('Float', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('Function', 148, 'NONE', 'NONE', s:col_16, 'NONE', 'NONE')
+call monokai#highlight('Identifier', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('Keyword', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('Label', 186, 'NONE', 'NONE', s:col_18, 'NONE', 'NONE')
+call monokai#highlight('NonText', 242, 'NONE', 'NONE', s:col_12, 'NONE', 'NONE')
+call monokai#highlight('Number', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('Operator', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('PreProc', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('Special', 231, 'NONE', 'NONE', s:col_7, 'NONE', 'NONE')
+call monokai#highlight('SpecialComment', 242, 'NONE', 'NONE', s:col_12, 'NONE', 'NONE')
+call monokai#highlight('SpecialKey', 242, 'NONE', 'NONE', s:col_12, 'NONE', 'NONE')
+call monokai#highlight('SpecialChar', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('Statement', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('StorageClass', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'italic')
+call monokai#highlight('String', 186, 'NONE', 'NONE', s:col_18, 'NONE', 'NONE')
+call monokai#highlight('Tag', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('Title', 231, 'NONE', 'bold', s:col_7, 'NONE', 'bold')
+call monokai#highlight('Todo', 95, 'NONE', 'inverse,bold', s:col_12, 'NONE', 'inverse,bold')
+call monokai#highlight('Type', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('Underlined', 'NONE', 'NONE', 'underline', 'NONE', 'NONE', 'underline')
+call monokai#highlight('helpCommand', 148, 'NONE', 'NONE', s:col_16, 'NONE', 'NONE')
+call monokai#highlight('rubyClass', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('rubyFunction', 148, 'NONE', 'NONE', s:col_16, 'NONE', 'NONE')
+call monokai#highlight('rubyInterpolationDelimiter', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('rubySymbol', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('rubyConstant', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'italic')
+call monokai#highlight('rubyStringDelimiter', 186, 'NONE', 'NONE', s:col_18, 'NONE', 'NONE')
+call monokai#highlight('rubyBlockParameter', 208, 'NONE', 'NONE', s:col_19, 'NONE', 'italic')
+call monokai#highlight('rubyInstanceVariable', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('rubyInclude', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('rubyGlobalVariable', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('rubyRegexp', 186, 'NONE', 'NONE', s:col_18, 'NONE', 'NONE')
+call monokai#highlight('rubyRegexpDelimiter', 186, 'NONE', 'NONE', s:col_18, 'NONE', 'NONE')
+call monokai#highlight('rubyEscape', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('rubyControl', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('rubyClassVariable', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('rubyOperator', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('rubyException', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('rubyPseudoVariable', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('rubyRailsUserClass', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'italic')
+call monokai#highlight('rubyRailsARAssociationMethod', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('rubyRailsARMethod', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('rubyRailsRenderMethod', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('rubyRailsMethod', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('erubyDelimiter', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('erubyComment', 95, 'NONE', 'NONE', s:col_12, 'NONE', 'NONE')
+call monokai#highlight('erubyRailsMethod', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('htmlTag', 148, 'NONE', 'NONE', s:col_16, 'NONE', 'NONE')
+call monokai#highlight('htmlEndTag', 148, 'NONE', 'NONE', s:col_16, 'NONE', 'NONE')
+call monokai#highlight('htmlTagName', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('htmlArg', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('htmlSpecialChar', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('javaScriptFunction', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'italic')
+call monokai#highlight('javaScriptRailsFunction', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('javaScriptBraces', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('yamlKey', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('yamlAnchor', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('yamlAlias', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('yamlDocumentHeader', 186, 'NONE', 'NONE', s:col_18, 'NONE', 'NONE')
+call monokai#highlight('cssURL', 208, 'NONE', 'NONE', s:col_19, 'NONE', 'italic')
+call monokai#highlight('cssFunctionName', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('cssColor', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('cssPseudoClassId', 148, 'NONE', 'NONE', s:col_16, 'NONE', 'NONE')
+call monokai#highlight('cssClassName', 148, 'NONE', 'NONE', s:col_16, 'NONE', 'NONE')
+call monokai#highlight('cssValueLength', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('cssCommonAttr', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('cssBraces', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call monokai#highlight('elixirAtom', 140, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
+call monokai#highlight('elixirModuleDeclaration', 216, 'NONE', 'NONE', s:col_20, 'NONE', 'NONE')
+call monokai#highlight('elixirAlias', 208, 'NONE', 'NONE', s:col_19, 'NONE', 'NONE')
+call monokai#highlight('elixirStringDelimiter', 186, 'NONE', 'NONE', s:col_18, 'NONE', 'NONE')
+call monokai#highlight('shQuote', 186, 'NONE', 'NONE', s:col_18, 'NONE', 'NONE')
+call monokai#highlight('shDerefSimple', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'italic')
+call monokai#highlight('markdownHeadingDelimiter', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
+call monokai#highlight('markdownCode', 242, 'NONE', 'NONE', s:col_12, 'NONE', 'NONE')
+call monokai#highlight('markdownUrl', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'underline')
+call monokai#highlight('markdownLink', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'underline')
+call monokai#highlight('markdownLinkDelimiter', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('markdownLinkTextDelimiter', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
+call monokai#highlight('markdownLinkText', 81, 'NONE', 'NONE', s:col_7, 'NONE', 'NONE')
