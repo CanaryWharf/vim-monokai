@@ -134,7 +134,7 @@ call monokai#highlight('htmlEndTag', 148, 'NONE', 'NONE', s:col_16, 'NONE', 'NON
 call monokai#highlight('htmlTagName', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call monokai#highlight('htmlArg', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call monokai#highlight('htmlSpecialChar', 141, 'NONE', 'NONE', s:col_11, 'NONE', 'NONE')
-call monokai#highlight('javaScriptFunction', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'italic')
+call monokai#highlight('javaScriptFunction', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
 call monokai#highlight('javaScriptRailsFunction', 81, 'NONE', 'NONE', s:col_17, 'NONE', 'NONE')
 call monokai#highlight('javaScriptBraces', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call monokai#highlight('yamlKey', 197, 'NONE', 'NONE', s:col_6, 'NONE', 'NONE')
