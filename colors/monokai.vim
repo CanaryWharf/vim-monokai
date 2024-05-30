@@ -22,10 +22,10 @@ function! monokai#highlight(target, ctermfg, ctermbg, cterm, guifg, guibg, gui)
                 \ 'gui=' . a:gui
 endfunction
 
-let s:bg = '#1f1f1f'
+let s:bg = '#262626'
 let s:col_1 = '#f8f8f0'
 let s:col_2 = '#49483e'
-let s:gutter = '#2A2A2A'
+let s:gutter = '#3a3a3a'
 let s:col_4 = '#90908a'
 let s:col_5 = '#64645e'
 let s:col_6 = '#ff005c'
